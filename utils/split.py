@@ -3,12 +3,6 @@ import sys
 import os
 import time
 
-# example usage: python split.py example.csv 200
-# above command would split the `example.csv` into smaller CSV files of 200 rows each (with header included)
-# if example.csv has 401 rows for instance, this creates 3 files in same directory:
-#   - `example_1.csv` (row 1 - 200)
-#   - `example_2.csv` (row 201 - 400)
-#   - `example_3.csv` (row 401)
 
 CURRENT_DIR = os.path.dirname(os.path.realpath(__file__))
 
